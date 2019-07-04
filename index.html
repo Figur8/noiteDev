@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="wwwroot/css/site.css" />
+    <!--conexão do bando de dados-->
+    <script src="Model/DAO/connection.js">
+    </script>
+    <!--conexão do bando de dados-->
+    <script src="Model/DAO/DAO_Alunos.js">
+    </script>
+
+    <script src="Controller/acoes.js">
+
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"
+        integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs"
+        crossorigin="anonymous"></script>
+    </script>
+
+    </script>
+</head>
+
+<body>
+    <script>
+
+    </script>
+    <h1>Alunos</h1>
+    <br />
+    <form>
+        <p class="has-dynamic-label">
+            <label for="dynamic-label-input">Nome Completo</label>
+            <input type="text" id="nome" maxlength= "50" placeholder="Digite o nome completo" required>
+        </p>
+        <p class="has-dynamic-label">
+            <label for="dynamic-label-input">RG(somente números)</label>
+            <input type="text" id="rg" maxlength="14" minlength="9" placeholder="xx.xxx.xxx-xx" required>
+        </p>
+        <p class="has-dynamic-label">
+            <label for="dynamic-label-input">CPF(somente números)</label>
+            <input type="text" id="cpf" maxlength="11" class="form-control cpf-mask" placeholder="Ex.: xxxxxxxxxxx" required>
+        </p>
+        <p class="has-dynamic-label">
+            <label for="dynamic-label-input">Celular(somente números))</label>
+            <input type="text" id="celular" maxlength="12" placeholder="DDDxxxxxxxxx" required>
+        </p>
+        <p class="has-dynamic-label">
+            <label for="dynamic-label-input">Email</label>
+            <input type="email" id="email" placeholder="example@example.com.br" required>
+        </p>
+        <p class="has-dynamic-label">
+            <label for="dynamic-label-input">Matricula(somente números)</label>
+            <input type="text" id="matricula" maxlength="8" placeholder="xxxxxxxx" required>
+        </p>
+        </br>
+        <a id="inserir" onclick="insert()" class='btn blue'> INSERIR</a>
+    </form>
+    <div class="dados">
+        <!-- <script type="text/javascript">
+            onload = function () {
+                if (!document.getElementsByTagName || !document.createTextNode) return;
+                var rows = document.getElementById('table').getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+                for (i = 0; i < rows.length; i++) {
+                    rows[i].onclick = function () {
+                        alert(this.rowIndex + 1);
+                    }
+                }
+            }
+        </script> -->
+        <h1><span class="yellow">Tabela de alunos</pan>
+        </h1>
+        <table id="table" class="container">
+            <thead>
+                <tr>
+                    <th>
+                        <h1>ID</h1>
+                    </th>
+                    <th>
+                        <h1>Nome</h1>
+                    </th>
+                    <th>
+                        <h1>RG</h1>
+                    </th>
+                    <th>
+                        <h1>CPF</h1>
+                    </th>
+                    <th>
+                        <h1>CELULAR</h1>
+                    </th>
+                    <th>
+                        <h1>EMAIL</h1>
+                    </th>
+                    <th>
+                        <h1>MATRÍCULA</h1>
+                    </th>
+                    <th>
+                        <h1>OPÇÕES</h1>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<!--conexão do bando de dados-->
+<script src="Model/DAO/connection.js">
+</script>
+<!--conexão do bando de dados-->
+
+<script src="Model/DAO/DAO_Alunos.js">
+
+</script>
+<script src="Controller/acoes.js">
+
+</script>
+
+</html>

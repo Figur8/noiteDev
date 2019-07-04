@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'linux64' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData linux64
+8 silly fetchNamedPackageData linux64
+9 silly mapToRegistry name linux64
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/linux64
+13 verbose request uri https://registry.npmjs.org/linux64
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 03:55:30
+16 verbose request id e99ae126fa766df5
+17 http request GET https://registry.npmjs.org/linux64
+18 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+19 info attempt registry request try #2 at 03:55:50
+20 http request GET https://registry.npmjs.org/linux64
+21 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+22 info attempt registry request try #3 at 03:57:00
+23 http request GET https://registry.npmjs.org/linux64
+24 http 404 https://registry.npmjs.org/linux64
+25 verbose headers { date: 'Mon, 01 Jul 2019 06:57:02 GMT',
+25 verbose headers   'content-type': 'application/json',
+25 verbose headers   'content-length': '21',
+25 verbose headers   connection: 'keep-alive',
+25 verbose headers   'set-cookie':
+25 verbose headers    [ '__cfduid=d720c160ced2a68418b76fe9861fddcf41561964221; expires=Tue, 30-Jun-20 06:57:01 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+25 verbose headers   'cf-cache-status': 'MISS',
+25 verbose headers   'cache-control': 'max-age=300',
+25 verbose headers   'cf-ray': '4ef67bbe9f96cfd8-GRU',
+25 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+25 verbose headers   vary: 'accept-encoding, accept',
+25 verbose headers   server: 'cloudflare' }
+26 silly get cb [ 404,
+26 silly get   { date: 'Mon, 01 Jul 2019 06:57:02 GMT',
+26 silly get     'content-type': 'application/json',
+26 silly get     'content-length': '21',
+26 silly get     connection: 'keep-alive',
+26 silly get     'set-cookie':
+26 silly get      [ '__cfduid=d720c160ced2a68418b76fe9861fddcf41561964221; expires=Tue, 30-Jun-20 06:57:01 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+26 silly get     'cf-cache-status': 'MISS',
+26 silly get     'cache-control': 'max-age=300',
+26 silly get     'cf-ray': '4ef67bbe9f96cfd8-GRU',
+26 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+26 silly get     vary: 'accept-encoding, accept',
+26 silly get     server: 'cloudflare' } ]
+27 silly fetchPackageMetaData Error: Not found : linux64
+27 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+27 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+27 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+27 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+27 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+27 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+27 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+27 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+27 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+27 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+27 silly fetchPackageMetaData  error for linux64 { Error: Not found : linux64
+27 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+27 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+27 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+27 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+27 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+27 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+27 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+27 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+27 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+27 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: 'linux64', statusCode: 404, code: 'E404' }
+28 silly rollbackFailedOptional Starting
+29 silly rollbackFailedOptional Finishing
+30 silly runTopLevelLifecycles Starting
+31 silly runTopLevelLifecycles Finishing
+32 silly install printInstalled
+33 verbose stack Error: Not found : linux64
+33 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+33 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+33 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+33 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+33 verbose stack     at emitTwo (events.js:126:13)
+33 verbose stack     at Request.emit (events.js:214:7)
+33 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+33 verbose stack     at emitOne (events.js:121:20)
+33 verbose stack     at Request.emit (events.js:211:7)
+33 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+34 verbose statusCode 404
+35 verbose pkgid linux64
+36 verbose cwd /home/ismaelkofre/Área de Trabalho/Projetos/noiteDev/MainFolder
+37 error Linux 4.15.0-20-generic
+38 error argv "/usr/bin/node" "/usr/bin/npm" "install" "linux64"
+39 error node v8.10.0
+40 error npm  v3.5.2
+41 error code E404
+42 error 404 Not found : linux64
+43 error 404
+44 error 404 'linux64' is not in the npm registry.
+45 error 404 You should bug the author to publish it (or use the name yourself!)
+46 error 404 Note that you can also install from a
+47 error 404 tarball, folder, http url, or git url.
+48 verbose exit [ 1, true ]

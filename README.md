@@ -32,7 +32,7 @@ git clone https://github.com/Suspir0n/noiteDev.git
 
 To build the project with Nodejs, execute the commands below:
 
-```
+```bash
 npm init
 ```
 

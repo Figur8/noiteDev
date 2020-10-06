@@ -17,14 +17,16 @@ To run the project, you will need to install the following programs:
 - [Nodejs: Required to create the project](https://nodejs.org/en/)
 - [VS Code: For project development] (https://code.visualstudio.com/)
 
-## Development
+## ⌨️ Development
 
-To start the development, it is necessary to clone the GitHub project in a directory of your choice:
+Use Gitpod, a free online dev environment for GitHub.
 
-```
-cd "Diretory of your preference"
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Suspir0n/noiteDev.git)
+
+Or use code locally using:
+```bash
+cd "Directory of your preference"
 git clone https://github.com/Suspir0n/noiteDev.git
-```
 
 ### Construction
 

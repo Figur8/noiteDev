@@ -34,6 +34,7 @@ To build the project with Nodejs, execute the commands below:
 
 ```bash
 npm init
+npm install
 ```
 
 The command will download the file called *package.json*.

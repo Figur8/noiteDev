@@ -51,4 +51,4 @@ As you will use the database, you will need the Workbench to be able to test you
 
 ## Contributions
 
-Contributions are always welcome! I hope I have helped someone in need.
+Contributions are always welcome! I hope that it will help someone!

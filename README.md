@@ -38,14 +38,6 @@ npm init
 
 The command will download the file called *package.json*.
 
-With that, MySQL would be missing. For such action, execute the command below:
-
-```
-npm install mysql --save
-```
-
-The command will download all the dependencies you need to use this tool.
-
 ## Features
 
 The project can be used as a template to start the development of a Javascript project using Nodejs. It also demonstrates in a practical way how to create a Student Register and also demonstrate in a table in nodejs quickly and easily.

@@ -36,7 +36,7 @@ To build the project with Nodejs, execute the commands below:
 npm init
 ```
 
-The command will download the file called * package.json *.
+The command will download the file called *package.json*.
 
 With that, MySQL would be missing. For such action, execute the command below:
 

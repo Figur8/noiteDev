@@ -13,9 +13,9 @@ This project illustrates an example of a simple registrer of students for learni
 
 To run the project, you will need to install the following programs:
 
-- [MySQL: a toolkit, necessary to carry out the project] (https://www.mysql.com/)
-- [XAMPP: a server to upload the database] (https://www.apachefriends.org/pt_br/index.html)
-- [Nodejs: Required to create the project] (https://nodejs.org/en/)
+- [MySQL: a toolkit, necessary to carry out the project](https://www.mysql.com/)
+- [XAMPP: a server to upload the database](https://www.apachefriends.org/pt_br/index.html)
+- [Nodejs: Required to create the project](https://nodejs.org/en/)
 - [VS Code: For project development] (https://code.visualstudio.com/)
 
 ## Development
